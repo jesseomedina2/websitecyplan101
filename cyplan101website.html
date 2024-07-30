@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Paragraph Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="image1.jpg" alt="Image 1">
+            <p>This is the first paragraph, describing the first image.</p>
+        </div>
+        <div class="item">
+            <img src="image2.jpg" alt="Image 2">
+            <p>This is the second paragraph, describing the second image.</p>
+        </div>
+        <div class="item">
+            <img src="image3.jpg" alt="Image 3">
+            <p>This is the third paragraph, describing the third image.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.item p {
+    margin-top: 10px;
+    text-align: center;
+}
+</style>
